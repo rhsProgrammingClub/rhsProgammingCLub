@@ -98,7 +98,6 @@
             background-size: cover;
             margin: 0px;
             width: 100%;
-            height: 700px;
         }
         
         #title h1 {
@@ -309,7 +308,7 @@
         
         .calenderCardLocation {
             margin-top: auto;
-            flex-grow: 1;
+            width: 100%;
             align-self: flex-end;
             display: block;
         }

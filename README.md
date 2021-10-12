@@ -1,3 +1,3 @@
-# rhsProgammingClub
+# RHS programming club website
 
-ok
+Welcome to the repository!

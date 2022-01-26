@@ -13,6 +13,18 @@ function toggleSidebar() {
 	}
 }
 
+
+function openSidebar(){
+	this.mini = true;
+	toggleSidebar();
+}
+
+function closeSidebar(){
+	this.mini = false;
+	toggleSidebar();
+}
+
+
 cardlist = document.querySelectorAll(".Hansoncard");
 
 

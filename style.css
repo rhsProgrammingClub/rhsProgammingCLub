@@ -86,14 +86,14 @@
         }
         
         #content {
-            margin-left: 5.49vw;
+            margin-left: 100px;
             display: flex;
             flex-direction: column;
         }
         
         #title {
             text-align: center;
-            font-size: 3.5vw;
+            font-size: 3em;
             background-image: url(images/meetingHome.jpg);
             background-size: cover;
             margin: 0px;
@@ -107,7 +107,7 @@
         }
         
         #title h2 {
-            font-size: 3vw;
+            font-size: 0.8em;
             font-weight: 700;
             text-shadow: 0 1px 2px rgb(0 0 0 / 25%), 0 2px 4px rgb(0 0 0 / 13%);
             color: white;
@@ -126,6 +126,7 @@
             cursor: pointer;
             border-radius: 99999px;
             align-items: center;
+            position: relative;
             justify-content: center;
             box-shadow: 0 4px 8px rgb(0 0 0 / 13%);
             letter-spacing: 0.009em;
@@ -149,7 +150,7 @@
         
         #rundown {
             background-color: white;
-            padding: 3rem 10rem 0rem 10rem;
+            padding: 3vh 10vw 0rem 10vw;
             color: #5d114c;
             ;
             font-size: 1.15rem;
@@ -186,7 +187,6 @@
             padding-right: 8px;
             margin-left: -8px;
             margin-right: -8px;
-            white-space: nowrap;
             color: #5d114c;
             background-color: rgb(255, 212, 64);
         }
@@ -329,12 +329,11 @@
         
         #projects {
             background-color: #f1f3fe;
-            padding-left: 4rem;
-            padding-right: 4rem;
+            padding-left: 10vw;
+            padding-right: 10vw;
             display: flex;
             flex-basis: row;
             flex-wrap: wrap;
-            margin-left: 4rem;
         }
         
         #projects h1 {
